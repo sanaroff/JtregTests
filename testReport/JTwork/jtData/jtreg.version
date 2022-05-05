@@ -1,0 +1,9 @@
+jtreg, version 5.1 src b01
+Installed in /usr/share/java/jtreg.jar
+Running on platform version 11.0.15 from /usr/lib/jvm/java-11-openjdk-amd64.
+Built with 11.0.12 on Thu, 04 Nov 2021 18:16:23 +0100.
+Copyright (c) 1999, 2019, Oracle and/or its affiliates. All rights reserved.
+Use is subject to license terms.
+JT Harness, version 6.0 ea b15 (November 04, 2021)
+TestNG (testng.jar): version 6.9.12.SNAPSHOT
+TestNG (jcommander.jar): version unknown

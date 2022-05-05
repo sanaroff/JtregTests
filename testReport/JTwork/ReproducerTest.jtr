@@ -1,0 +1,154 @@
+#Test Results (version 2)
+#Thu May 05 17:35:18 NOVT 2022
+#-----testdescription-----
+$file=/home/user/Desktop/Sanaroff/win/ReproducerTest.java
+$root=/home/user/Desktop/Sanaroff/win
+keywords=testng
+run=USER_SPECIFIED testng ReproducerTest\n
+source=ReproducerTest.java
+title=\ 
+
+#-----environment-----
+
+#-----testresult-----
+description=file\:/home/user/Desktop/Sanaroff/win/ReproducerTest.java
+elapsed=22349 0\:00\:22.349
+end=Thu May 05 17\:35\:18 NOVT 2022
+environment=regtest
+execStatus=Failed. Execution failed\: `main' threw exception\: java.lang.Exception\: failures\: 1
+harnessLoaderMode=Classpath Loader
+harnessVariety=Full Bundle
+hostname=ubuntuvoronov
+javatestOS=Linux 4.15.0-176-generic (amd64)
+javatestVersion=6.0-ea+b15-2021-11-04
+jtregVersion=jtreg 5.1 src b01
+script=com.sun.javatest.regtest.exec.RegressionScript
+sections=script_messages build testng
+start=Thu May 05 17\:34\:56 NOVT 2022
+test=ReproducerTest.java
+testJDK=/home/user/Desktop/Sanaroff/old/jdk
+totalTime=22376
+user.name=user
+work=/home/user/Desktop/Sanaroff/JTwork/.
+
+#section:script_messages
+----------messages:(4/260)----------
+JDK under test: /home/user/Desktop/Sanaroff/old/jdk
+openjdk version "11.0.7-internal" 2020-04-14
+OpenJDK Runtime Environment (build 11.0.7-internal+0-adhoc.hermezzis.oldJdk)
+OpenJDK 64-Bit Server VM (build 11.0.7-internal+0-adhoc.hermezzis.oldJdk, mixed mode)
+
+#section:build
+----------messages:(3/97)----------
+command: build ReproducerTest
+reason: Named class compiled on demand
+elapsed time (seconds): 0.0
+result: Passed. All files up to date
+
+#section:testng
+----------messages:(4/134)----------
+command: testng ReproducerTest
+reason: User specified action: run testng ReproducerTest 
+Mode: othervm
+elapsed time (seconds): 22.153
+----------configuration:(0/0)----------
+----------System.out:(43/2528)----------
+[TestNG] Running:
+  ReproducerTest.java
+
+config ReproducerTest.init(): success
+test ReproducerTest.testFocusChild(): failure
+java.lang.RuntimeException: Focus is not here 
+	at ReproducerTest.testFocusChild(ReproducerTest.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at com.sun.javatest.regtest.agent.TestNGRunner.main(TestNGRunner.java:94)
+	at com.sun.javatest.regtest.agent.TestNGRunner.main(TestNGRunner.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javatest.regtest.agent.MainWrapper$MainThread.run(MainWrapper.java:127)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+===============================================
+ReproducerTest.java
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+----------System.err:(26/1770)----------
+
+(process:28681): dconf-CRITICAL **: 17:34:58.284: unable to create file '/home/user/.cache/dconf/user': Is a directory.  dconf will not work properly.
+
+(process:28681): dconf-CRITICAL **: 17:34:58.285: unable to create file '/home/user/.cache/dconf/user': Is a directory.  dconf will not work properly.
+
+(process:28681): dconf-CRITICAL **: 17:34:58.285: unable to create file '/home/user/.cache/dconf/user': Is a directory.  dconf will not work properly.
+
+(process:28681): dconf-CRITICAL **: 17:34:58.285: unable to create file '/home/user/.cache/dconf/user': Is a directory.  dconf will not work properly.
+
+(process:28681): dconf-CRITICAL **: 17:34:58.300: unable to create file '/home/user/.cache/dconf/user': Is a directory.  dconf will not work properly.
+
+(process:28681): dconf-CRITICAL **: 17:34:58.301: unable to create file '/home/user/.cache/dconf/user': Is a directory.  dconf will not work properly.
+java.lang.Exception: failures: 1
+	at com.sun.javatest.regtest.agent.TestNGRunner.main(TestNGRunner.java:96)
+	at com.sun.javatest.regtest.agent.TestNGRunner.main(TestNGRunner.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javatest.regtest.agent.MainWrapper$MainThread.run(MainWrapper.java:127)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+JavaTest Message: Test threw exception: java.lang.Exception: failures: 1
+JavaTest Message: shutting down test
+
+STATUS:Failed.`main' threw exception: java.lang.Exception: failures: 1
+----------rerun:(24/1321)*----------
+cd /home/user/Desktop/Sanaroff/JTwork/scratch && \\
+DISPLAY=:0 \\
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated \\
+HOME=/home/user \\
+LANG=en_US.UTF-8 \\
+PATH=/bin:/usr/bin:/usr/sbin \\
+XMODIFIERS=@im=ibus \\
+CLASSPATH=/home/user/Desktop/Sanaroff/JTwork/classes:/home/user/Desktop/Sanaroff/win:/usr/share/java/testng.jar:/usr/share/java/jcommander.jar:/usr/share/java/javatest.jar:/usr/share/java/jtreg.jar \\
+    /home/user/Desktop/Sanaroff/old/jdk/bin/java \\
+        -Dtest.vm.opts= \\
+        -Dtest.tool.vm.opts= \\
+        -Dtest.compiler.opts= \\
+        -Dtest.java.opts= \\
+        -Dtest.jdk=/home/user/Desktop/Sanaroff/old/jdk \\
+        -Dcompile.jdk=/home/user/Desktop/Sanaroff/old/jdk \\
+        -Dtest.timeout.factor=1.0 \\
+        -Dtest.root=/home/user/Desktop/Sanaroff/win \\
+        -Dtest.name=ReproducerTest.java \\
+        -Dtest.file=/home/user/Desktop/Sanaroff/win/ReproducerTest.java \\
+        -Dtest.src=/home/user/Desktop/Sanaroff/win \\
+        -Dtest.src.path=/home/user/Desktop/Sanaroff/win \\
+        -Dtest.classes=/home/user/Desktop/Sanaroff/JTwork/classes \\
+        -Dtest.class.path=/home/user/Desktop/Sanaroff/JTwork/classes \\
+        com.sun.javatest.regtest.agent.MainWrapper /home/user/Desktop/Sanaroff/JTwork/ReproducerTest.d/testng.0.jta ReproducerTest.java false ReproducerTest
+result: Failed. Execution failed: `main' threw exception: java.lang.Exception: failures: 1
+
+
+test result: Failed. Execution failed: `main' threw exception: java.lang.Exception: failures: 1

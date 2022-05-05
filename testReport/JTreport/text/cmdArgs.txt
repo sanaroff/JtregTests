@@ -1,0 +1,4 @@
+-verbose:summary
+-testjdk:old/jdk
+-a
+win/ReproducerTest.java

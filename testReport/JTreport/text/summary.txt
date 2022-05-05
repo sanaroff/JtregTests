@@ -1,0 +1,2 @@
+FocusedWindowsWithDiffTimeVisibleTests.java  Failed. Execution failed: `main' threw exception: java.lang.Exception: failures: 1
+ReproducerTest.java                          Failed. Execution failed: `main' threw exception: java.lang.Exception: failures: 1

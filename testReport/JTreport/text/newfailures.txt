@@ -1,0 +1,3 @@
+# newfailures.txt
+FocusedWindowsWithDiffTimeVisibleTests.java 
+ReproducerTest.java 

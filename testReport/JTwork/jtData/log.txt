@@ -1,0 +1,6 @@
+[05May2022 17:32NOVT]  Starting test run
+[05May2022 17:32NOVT]  Completed test run: not ok
+[05May2022 17:34NOVT]  Starting test run
+[05May2022 17:34NOVT]  Completed test run: ok
+[05May2022 17:34NOVT]  Starting test run
+[05May2022 17:35NOVT]  Completed test run: not ok

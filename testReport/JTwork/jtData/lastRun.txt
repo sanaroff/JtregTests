@@ -1,0 +1,6 @@
+#Last test run info
+#Thu May 05 17:35:18 NOVT 2022
+configName=regtest
+finishTime=1651746918539
+testURLs=ReproducerTest.java
+startTime=1651746895739
